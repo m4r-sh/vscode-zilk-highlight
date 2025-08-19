@@ -1,0 +1,54 @@
+{
+  "name": "zilk-highlight",
+  "displayName": "zilk-highlight",
+  "description": "Syntax highlighting for html/css/md/js template strings as provided in zilk",
+  "icon": "icon.png",
+  
+  "version": "0.1.0",
+  "publisher": "m4rsh",
+  
+
+	"repository": {
+		"url": "https://github.com/m4r-sh/vscode-zilk-highlight"
+	},
+	"bugs": {
+		"url": "https://github.com/m4r-sh/vscode-zilk-highlight"
+	},
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"javascript",
+		"zilk",
+		"zilker",
+		"js",
+		"html",
+		"md",
+		"css",
+		"tag",
+		"tagged",
+		"template",
+		"literal",
+		"string"
+	],
+
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/zilk.tmLanguage.json",
+        "scopeName": "source.zilk",
+        "injectTo": ["source.js","source.ts"],
+        "embeddedLanguages": {
+          "meta.embedded.block.css.zilk": "css",
+          "meta.embedded.block.html.zilk": "html",
+          "meta.embedded.block.md.zilk": "markdown",
+          "meta.embedded.block.js.zilk": "javascript"
+        }
+      }
+    ]
+  }
+
+}

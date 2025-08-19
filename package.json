@@ -4,7 +4,7 @@
   "description": "Syntax highlighting for html/css/md/js template strings as provided in zilk",
   "icon": "icon.png",
   
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "m4rsh",
   
 
@@ -42,10 +42,11 @@
         "scopeName": "source.zilk",
         "injectTo": ["source.js","source.ts"],
         "embeddedLanguages": {
-          "meta.embedded.block.css.zilk": "css",
-          "meta.embedded.block.html.zilk": "html",
-          "meta.embedded.block.md.zilk": "markdown",
-          "meta.embedded.block.js.zilk": "javascript"
+          "meta.embedded.block.css": "css",
+          "meta.embedded.block.html": "html",
+          "meta.embedded.block.md": "markdown",
+          "meta.embedded.block.xml": "xml",
+          "meta.embedded.block.svg": "xml"
         }
       }
     ]

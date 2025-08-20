@@ -15,8 +15,8 @@
       "begin": "((svg))(`)",
       "beginCaptures": { "1": { "name": "entity.name.function.tagged-template.zilk" } },
       "end": "(`)",
-      "contentName": "meta.embedded.block.svg",
-      "patterns": [{ "include": "text.xml.svg" }]
+      "contentName": "meta.embedded.block.xml",
+      "patterns": [{ "include": "text.xml" }]
     },
     {
       "begin": "((xml))(`)",
@@ -61,11 +61,11 @@
     {
       "begin": "(\\$\\{)",
       "beginCaptures": {
-        "1": { "name": "entity.name.tag" }
+        "0": { "name": "comment.block" }
       },
       "end": "(})",
       "endCaptures": {
-        "1": { "name": "entity.name.tag" }
+        "0": { "name": "comment.block" }
       },
       "patterns": [
         { "include": "source.js" },

@@ -45,8 +45,7 @@
           "meta.embedded.block.css": "css",
           "meta.embedded.block.html": "html",
           "meta.embedded.block.md": "markdown",
-          "meta.embedded.block.xml": "xml",
-          "meta.embedded.block.svg": "xml"
+          "meta.embedded.block.xml": "xml"
         }
       }
     ]
